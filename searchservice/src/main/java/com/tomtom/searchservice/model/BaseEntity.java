@@ -1,9 +1,7 @@
-package com.tomtom.productservice.model;
+package com.tomtom.searchservice.model;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
-
-import java.time.Instant;
 
 @Data
 public class BaseEntity {
@@ -12,9 +10,5 @@ public class BaseEntity {
     public String name;
     public String category;
     public String subCategory;
-    public String desc;    
-    public String createdBy;
-    public String updatedBy;
-    public Instant createdAt;
-    public Instant updatedAt;
+    public String desc;
 }

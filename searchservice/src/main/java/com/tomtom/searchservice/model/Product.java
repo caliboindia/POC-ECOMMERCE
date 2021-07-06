@@ -1,6 +1,7 @@
-package com.tomtom.productservice.model;
+package com.tomtom.searchservice.model;
 
 import lombok.Data;
+import org.springframework.data.annotation.Id;
 
 import java.util.List;
 
